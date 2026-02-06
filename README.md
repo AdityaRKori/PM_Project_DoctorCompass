@@ -5,8 +5,7 @@
 ---
 
 <div align="center">
-  <img src="<img width="563" height="144" alt="Screenshot 2026-02-06 133030" src="https://github.com/user-attachments/assets/f5eecd4e-c3b3-46d8-b14e-9a729c42ece1" />
-" alt="DoctorCompass Logo" width="400"/>
+  <img src="Screenshot 2026-02-06 133030.png" alt="Disclaimer Screen" width="600"/>
   <h1>DoctorCompass</h1>
   <h3>"A care AI that guides you to the right medical advice"</h3>
 </div>
