@@ -1,0 +1,7 @@
+{
+  "name": "DoctorCompass",
+  "description": "A care AI that guides you to the right medical advice",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

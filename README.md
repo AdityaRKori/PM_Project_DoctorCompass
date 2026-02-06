@@ -1,11 +1,108 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Public App Access
+[**Click here to use DoctorCompass**](https://ai.studio/apps/drive/1mBHd1QvDnsn5mfB2ECJXIhKyksFTmjn7?fullscreenApplet=true)
 
-  <h1>Built with AI Studio</h2>
+---
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+![DoctorCompass Logo Placeholder](https://via.placeholder.com/800x200?text=DoctorCompass+AI)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+# DoctorCompass
+### "A care AI that guides you to the right medical advice"
 
-</div>
+---
+
+## 🏥 The Problem Statement
+In the age of information, people often turn to Google or general LLMs when they feel sick. This leads to **"Cyberchondria"**—unnecessary anxiety caused by misinterpreting medical information online.
+*   **Search Engines** give listicles of cancer for a simple headache.
+*   **Forums** provide anecdotal evidence that is often dangerous.
+*   **General AI** lacks the clinical "thinking" context to stratify risk or manage recovery properly.
+*   **Post-Care Confusion**: Patients discharged from hospitals often forget their care instructions or lose their paper slips, leading to readmissions or infections.
+
+## 🎯 Objective
+**DoctorCompass** is a specialized Medical Intelligence Agent designed to bridge the gap between "Dr. Google" and a real physician. It is a **Clinical Decision Support System (CDSS)** meant for triage, education, and recovery management. 
+
+It does not just "chat"; it **investigates**, **analyzes**, and **plans**.
+
+## 🧠 Methodology & Tech Stack
+This project utilizes a **Product Management (PM) led approach** to solve healthcare navigation.
+
+### 1. Stackable Context Engine
+Unlike standard chatbots that treat every query as new, DoctorCompass maintains a "Patient State". If you mentioned a headache yesterday and a fever today, it connects the dots (e.g., Meningitis risk) rather than treating them separately.
+
+### 2. Dual-Phase Intelligence
+*   **Phase 1: Investigator (Gemini 2.5 Flash)**
+    *   Fast, real-time interaction.
+    *   Uses **Google Search Grounding** to check local outbreaks or weather-related health risks.
+    *   Handles **Drug-Drug Interaction** checks instantly.
+*   **Phase 2: Chief Medical Officer (Gemini 3 Pro Preview)**
+    *   Triggered when the user requests a report.
+    *   Uses **Reasoning Models** to "Think" through pathophysiology.
+    *   Generates a clinical JSON schema with `severityScore`, `recurrenceLikelihood`, and `personalizedRootCause`.
+
+### 3. Recovery Mode vs. Triage Mode
+The AI detects the user's intent:
+*   **Triage Mode**: For unknown symptoms. Focuses on Risk Stratification (Urgent vs. Self-Care).
+*   **Recovery Mode**: For diagnosed patients. Focuses on **Daily Routines**, **Medication Schedules**, and **Hygiene**.
+
+### 4. Location-Based Care
+Integrates **Google Maps Grounding** to find specific specialists (e.g., "Orthopedic Surgeon") near the user's geolocation when high risk is detected.
+
+---
+
+## 🌳 Project Timeline & Features
+*   **v1.0 (MVP)**: Basic Symptom Checker.
+*   **v1.5**: Integration of Google Search for real-time validation.
+*   **v2.0 (Current)**:
+    *   Full UI Overhaul (Glassmorphism).
+    *   **Recovery Mode**: Daily routine generation for post-op/injury care.
+    *   **Medication Hub**: Safety checks for drug interactions.
+    *   **Personalized Analysis**: "Why Me?" section explaining root causes.
+*   **Future Roadmap**:
+    *   Wearable integration (Apple Health/Fitbit).
+    *   PDF Report Export for doctors.
+
+---
+
+## 📱 Product Tour (Advertisement)
+
+**Meet DoctorCompass.**
+
+Stop guessing. Start navigating.
+
+When you or a loved one is unwell, clarity is the only thing that matters. DoctorCompass is the first AI companion that understands *you*, not just your symptoms.
+
+*   **⚠️ The Triage Engine**: Woke up with a strange rash? Chat with us. We'll assess the visual description, check your history, and tell you if it's "Benadryl and sleep" or "Emergency Room now".
+*   **💊 The Safety Net**: Taking antibiotics? Ask us, *"Can I eat yogurt with this?"* or *"Can I take Tylenol too?"*. We check the biochemistry so you don't have to.
+*   **❤️ The Recovery Pal**: Broken leg? We generate a **Day-to-Day Plan**:
+    *   *Morning*: How to shower without wetting the cast.
+    *   *Noon*: When to take your meds.
+    *   *Night*: Best sleeping position for blood flow.
+
+It's like having a doctor in your pocket, 24/7.
+
+---
+
+## 🔄 User Flow
+1.  **Disclaimer**: User accepts safety protocols.
+2.  **Context Building**: User chats about symptoms or context ("I fell off my bike").
+3.  **Real-time Assistance**: AI answers immediate questions (e.g., "Is it okay to put ice on it?").
+4.  **Clinical Analysis**: User clicks "Generate Medical Report".
+    *   AI "Thinks" (Gemini 3 Pro).
+    *   AI outputs a **Risk Assessment** or **Recovery Roadmap**.
+5.  **Action**: User sees a visual dashboard with:
+    *   Severity Meter.
+    *   Medication Schedule.
+    *   Map of nearby clinics.
+
+---
+
+## 📸 Visuals
+
+*(Placeholder for Screenshots)*
+*   *Chat Interface with Medical Bubbles*
+*   *Severity Meter & Risk Dial*
+*   *Recovery Daily Routine Checklist*
+
+---
+
+> **PM Note**: This project demonstrates the application of **Generative AI in High-Stakes Environments**. By using "Thinking Models" (Gemini 3 Pro) for the final analysis and "Fast Models" (Flash) for chat, we optimize for both latency and accuracy—a critical balance in HealthTech product management.
