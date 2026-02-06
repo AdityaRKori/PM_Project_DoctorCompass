@@ -4,10 +4,11 @@
 
 ---
 
-![DoctorCompass Logo Placeholder](https://via.placeholder.com/800x200?text=DoctorCompass+AI)
-
-# DoctorCompass
-### "A care AI that guides you to the right medical advice"
+<div align="center">
+  <img src="Screenshot 2026-02-06 133030.png" alt="DoctorCompass Logo" width="400"/>
+  <h1>DoctorCompass</h1>
+  <h3>"A care AI that guides you to the right medical advice"</h3>
+</div>
 
 ---
 
@@ -24,7 +25,7 @@ In the age of information, people often turn to Google or general LLMs when they
 It does not just "chat"; it **investigates**, **analyzes**, and **plans**.
 
 ## 🧠 Methodology & Tech Stack
-This project utilizes a **Product Management (PM) led approach** to solve healthcare navigation.
+This project utilizes a **Product Management (PM) led approach** to solve healthcare navigation, prioritizing user safety, clarity, and actionable outcomes.
 
 ### 1. Stackable Context Engine
 Unlike standard chatbots that treat every query as new, DoctorCompass maintains a "Patient State". If you mentioned a headache yesterday and a fever today, it connects the dots (e.g., Meningitis risk) rather than treating them separately.
@@ -63,7 +64,7 @@ Integrates **Google Maps Grounding** to find specific specialists (e.g., "Orthop
 
 ---
 
-## 📱 Product Tour (Advertisement)
+## 📱 Product Tour & Advertisement
 
 **Meet DoctorCompass.**
 
@@ -82,26 +83,41 @@ It's like having a doctor in your pocket, 24/7.
 
 ---
 
-## 🔄 User Flow
-1.  **Disclaimer**: User accepts safety protocols.
-2.  **Context Building**: User chats about symptoms or context ("I fell off my bike").
-3.  **Real-time Assistance**: AI answers immediate questions (e.g., "Is it okay to put ice on it?").
-4.  **Clinical Analysis**: User clicks "Generate Medical Report".
-    *   AI "Thinks" (Gemini 3 Pro).
-    *   AI outputs a **Risk Assessment** or **Recovery Roadmap**.
-5.  **Action**: User sees a visual dashboard with:
-    *   Severity Meter.
-    *   Medication Schedule.
-    *   Map of nearby clinics.
+## 🔄 User Flow & Interface
+
+### 1. Safety First
+Before any interaction, we ensure the user understands this is a CDSS tool, not a human doctor.
+<img src="Screenshot 2026-02-06 133045.png" alt="Disclaimer Screen" width="600"/>
+
+### 2. Contextual Investigation
+The chat interface allows for natural language conversation. The AI remembers past context ("Stackable Context") and can perform quick drug interaction checks.
+<img src="Screenshot 2026-02-06 133139.png" alt="Chat Interface" width="800"/>
+
+### 3. Deep Clinical Reasoning
+When a report is requested, the system switches to **Gemini 3 Pro** to perform a deep "thinking" analysis of the entire conversation history.
+<img src="Screenshot 2026-02-06 133156.png" alt="Processing View" width="600"/>
 
 ---
 
-## 📸 Visuals
+## 📊 Comprehensive Medical Report
 
-*(Placeholder for Screenshots)*
-*   *Chat Interface with Medical Bubbles*
-*   *Severity Meter & Risk Dial*
-*   *Recovery Daily Routine Checklist*
+Once analyzed, the user is presented with a full medical dashboard.
+
+### The Diagnosis & Risk Score
+Immediate clarity on what is likely happening and how severe it is.
+<img src="Screenshot 2026-02-06 133207.png" alt="Report Top View" width="800"/>
+
+### Deep Dive & Daily Routine
+Understanding *why* it happened (Pathophysiology) and *what to do* hour-by-hour (Daily Care Routine).
+<img src="Screenshot 2026-02-06 133215.png" alt="Pathophysiology and Routine" width="800"/>
+
+### Recovery Timeline & Treatments
+Clear expectations on healing time and standard treatments.
+<img src="Screenshot 2026-02-06 133222.png" alt="Recovery Timeline" width="800"/>
+
+### Symptom Matrix & Action Plan
+A structured breakdown of symptoms and a geolocation-based map to find the right specialist nearby.
+<img src="Screenshot 2026-02-06 133229.png" alt="Symptom Matrix and Map" width="800"/>
 
 ---
 
