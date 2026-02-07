@@ -5,7 +5,7 @@
 ---
 
 <div align="center">
-  <img src="img/Screenshot 2026-02-06 133030.png" alt="DoctorCompass Logo" width="400"/>
+  <img src="img/Screenshot%202026-02-06%20133030.png" alt="DoctorCompass Logo" width="400"/>
   <h1>DoctorCompass</h1>
   <h3>"A care AI that guides you to the right medical advice"</h3>
 </div>
@@ -87,15 +87,15 @@ It's like having a doctor in your pocket, 24/7.
 
 ### 1. Safety First
 Before any interaction, we ensure the user understands this is a CDSS tool, not a human doctor.
-<img src="img/Screenshot 2026-02-06 133045.png" alt="Disclaimer Screen" width="600"/>
+<img src="img/Screenshot%202026-02-06%20133045.png" alt="Disclaimer Screen" width="600"/>
 
 ### 2. Contextual Investigation
 The chat interface allows for natural language conversation. The AI remembers past context ("Stackable Context") and can perform quick drug interaction checks.
-<img src="img/Screenshot 2026-02-06 133139.png" alt="Chat Interface" width="800"/>
+<img src="img/Screenshot%202026-02-06%20133139.png" alt="Chat Interface" width="800"/>
 
 ### 3. Deep Clinical Reasoning
 When a report is requested, the system switches to **Gemini 3 Pro** to perform a deep "thinking" analysis of the entire conversation history.
-<img src="img/Screenshot 2026-02-06 133156.png" alt="Processing View" width="600"/>
+<img src="img/Screenshot%202026-02-06%20133156.png" alt="Processing View" width="600"/>
 
 ---
 
@@ -105,19 +105,19 @@ Once analyzed, the user is presented with a full medical dashboard.
 
 ### The Diagnosis & Risk Score
 Immediate clarity on what is likely happening and how severe it is.
-<img src="img/Screenshot 2026-02-06 133207.png" alt="Report Top View" width="800"/>
+<img src="img/Screenshot%202026-02-06%20133207.png" alt="Report Top View" width="800"/>
 
 ### Deep Dive & Daily Routine
 Understanding *why* it happened (Pathophysiology) and *what to do* hour-by-hour (Daily Care Routine).
-<img src="img/Screenshot 2026-02-06 133215.png" alt="Pathophysiology and Routine" width="800"/>
+<img src="img/Screenshot%202026-02-06%20133215.png" alt="Pathophysiology and Routine" width="800"/>
 
 ### Recovery Timeline & Treatments
 Clear expectations on healing time and standard treatments.
-<img src="img/Screenshot 2026-02-06 133222.png" alt="Recovery Timeline" width="800"/>
+<img src="img/Screenshot%202026-02-06%20133222.png" alt="Recovery Timeline" width="800"/>
 
 ### Symptom Matrix & Action Plan
 A structured breakdown of symptoms and a geolocation-based map to find the right specialist nearby.
-<img src="img/Screenshot 2026-02-06 133229.png" alt="Symptom Matrix and Map" width="800"/>
+<img src="img/Screenshot%202026-02-06%20133229.png" alt="Symptom Matrix and Map" width="800"/>
 
 ---
 
